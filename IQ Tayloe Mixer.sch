@@ -62,7 +62,7 @@ Wire Wire Line
 Wire Wire Line
 	8800 8300 8800 7400
 $Comp
-L Tayloe_Detector_v5-eagle-import:GND #GND01
+L IQ-Tayloe-Mixer-rescue:GND-Tayloe_Detector_v5-eagle-import #GND01
 U 1 1 12C122FD
 P 9200 7200
 F 0 "#GND01" H 9200 7200 50  0001 C CNN
@@ -73,7 +73,7 @@ F 3 "" H 9200 7200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Tayloe_Detector_v5-eagle-import:C5_3.5 C14
+L IQ-Tayloe-Mixer-rescue:C5_3.5-Tayloe_Detector_v5-eagle-import C14
 U 1 1 5EE9C731
 P 9900 6000
 F 0 "C14" H 9960 6015 59  0000 L BNN
@@ -141,7 +141,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 6400 5000 6000
 $Comp
-L phase_v3-eagle-import:0.3OHM-0805-1_8W-1% R1
+L IQ-Tayloe-Mixer-rescue:0.3OHM-0805-1_8W-1%-phase_v3-eagle-import R1
 U 1 1 5EF82F89
 P 2600 6000
 F 0 "R1" H 2600 6060 70  0000 C BNN
@@ -152,7 +152,7 @@ F 3 "" H 2600 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L phase_v3-eagle-import:0.3OHM-0805-1_8W-1% R5
+L IQ-Tayloe-Mixer-rescue:0.3OHM-0805-1_8W-1%-phase_v3-eagle-import R5
 U 1 1 5EF82F8F
 P 3000 6400
 F 0 "R5" H 3000 6460 70  0000 C BNN
@@ -163,7 +163,7 @@ F 3 "" H 3000 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L phase_v3-eagle-import:0.3OHM-0805-1_8W-1% R9
+L IQ-Tayloe-Mixer-rescue:0.3OHM-0805-1_8W-1%-phase_v3-eagle-import R9
 U 1 1 5EF82F95
 P 4800 6000
 F 0 "R9" H 4800 6060 70  0000 C BNN
@@ -174,7 +174,7 @@ F 3 "" H 4800 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L phase_v3-eagle-import:0.3OHM-0805-1_8W-1% R15
+L IQ-Tayloe-Mixer-rescue:0.3OHM-0805-1_8W-1%-phase_v3-eagle-import R15
 U 1 1 5EF82F9B
 P 5200 6400
 F 0 "R15" H 5200 6460 70  0000 C BNN
@@ -185,7 +185,7 @@ F 3 "" H 5200 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L phase_v3-eagle-import:0.3OHM-0805-1_8W-1% R2
+L IQ-Tayloe-Mixer-rescue:0.3OHM-0805-1_8W-1%-phase_v3-eagle-import R2
 U 1 1 5EF82FC5
 P 2600 7500
 F 0 "R2" H 2600 7560 70  0000 C BNN
@@ -196,7 +196,7 @@ F 3 "" H 2600 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L phase_v3-eagle-import:0.3OHM-0805-1_8W-1% R6
+L IQ-Tayloe-Mixer-rescue:0.3OHM-0805-1_8W-1%-phase_v3-eagle-import R6
 U 1 1 5EF82FCB
 P 3000 7900
 F 0 "R6" H 3000 7960 70  0000 C BNN
@@ -207,7 +207,7 @@ F 3 "" H 3000 7900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L phase_v3-eagle-import:0.3OHM-0805-1_8W-1% R10
+L IQ-Tayloe-Mixer-rescue:0.3OHM-0805-1_8W-1%-phase_v3-eagle-import R10
 U 1 1 5EF82FD1
 P 4800 7500
 F 0 "R10" H 4800 7560 70  0000 C BNN
@@ -218,7 +218,7 @@ F 3 "" H 4800 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L phase_v3-eagle-import:0.3OHM-0805-1_8W-1% R16
+L IQ-Tayloe-Mixer-rescue:0.3OHM-0805-1_8W-1%-phase_v3-eagle-import R16
 U 1 1 5EF82FD7
 P 5200 7900
 F 0 "R16" H 5200 7960 70  0000 C BNN
@@ -260,7 +260,7 @@ Connection ~ 9200 7100
 Wire Wire Line
 	9200 6900 9200 7100
 $Comp
-L Tayloe_Detector_v5-eagle-import:FST3253 U$1
+L IQ-Tayloe-Mixer-rescue:FST3253-Tayloe_Detector_v5-eagle-import U$1
 U 1 1 6E1B97F5
 P 12000 7100
 F 0 "U$1" H 9400 7825 59  0000 L BNN
@@ -660,7 +660,7 @@ F 3 "" H 7350 7900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L phase_v3-eagle-import:1.0UF-0805-25V-(+80_-20%) C10
+L IQ-Tayloe-Mixer-rescue:1.0UF-0805-25V-(+80_-20%)-phase_v3-eagle-import C10
 U 1 1 5EEBD3D7
 P 7550 6850
 F 0 "C10" H 7610 6965 70  0000 L BNN
@@ -682,7 +682,7 @@ F 3 "" H 7550 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L phase_v3-eagle-import:1.0UF-0805-25V-(+80_-20%) C11
+L IQ-Tayloe-Mixer-rescue:1.0UF-0805-25V-(+80_-20%)-phase_v3-eagle-import C11
 U 1 1 5EEBE874
 P 7550 7300
 F 0 "C11" H 7610 7415 70  0000 L BNN
@@ -704,7 +704,7 @@ F 3 "" H 7550 7400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L phase_v3-eagle-import:1.0UF-0805-25V-(+80_-20%) C12
+L IQ-Tayloe-Mixer-rescue:1.0UF-0805-25V-(+80_-20%)-phase_v3-eagle-import C12
 U 1 1 5EED34B4
 P 7550 7750
 F 0 "C12" H 7610 7865 70  0000 L BNN
@@ -726,7 +726,7 @@ F 3 "" H 7550 7850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L phase_v3-eagle-import:1.0UF-0805-25V-(+80_-20%) C13
+L IQ-Tayloe-Mixer-rescue:1.0UF-0805-25V-(+80_-20%)-phase_v3-eagle-import C13
 U 1 1 5EED8105
 P 7550 8200
 F 0 "C13" H 7610 8315 70  0000 L BNN

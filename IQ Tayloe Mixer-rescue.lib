@@ -1,0 +1,104 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 0.3OHM-0805-1_8W-1%-phase_v3-eagle-import
+#
+DEF 0.3OHM-0805-1_8W-1%-phase_v3-eagle-import R 0 40 Y Y 1 L N
+F0 "R" 0 60 70 H V C BNN
+F1 "0.3OHM-0805-1_8W-1%-phase_v3-eagle-import" 0 -60 70 H V C TNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -100 0 -85 40 N
+P 2 1 0 0 -85 40 -60 -40 N
+P 2 1 0 0 -60 -40 -35 40 N
+P 2 1 0 0 -35 40 -10 -40 N
+P 2 1 0 0 -10 -40 15 40 N
+P 2 1 0 0 15 40 40 -40 N
+P 2 1 0 0 40 -40 65 40 N
+P 2 1 0 0 65 40 90 -40 N
+P 2 1 0 0 90 -40 100 0 N
+X 1 1 -200 0 100 R 0 0 1 0 P
+X 2 2 200 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# 1.0UF-0805-25V-(+80_-20%)-phase_v3-eagle-import
+#
+DEF 1.0UF-0805-25V-(+80_-20%)-phase_v3-eagle-import C 0 40 Y Y 1 L N
+F0 "C" 60 115 70 H V L BNN
+F1 "1.0UF-0805-25V-(+80_-20%)-phase_v3-eagle-import" 60 -85 70 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -80 20 80 40 1 0 0 F
+S -80 60 80 80 1 0 0 F
+P 2 1 0 0 0 0 0 20 N
+P 2 1 0 0 0 100 0 80 N
+X 1 1 0 200 100 D 0 0 1 0 P
+X 2 2 0 -100 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# C5_3.5-Tayloe_Detector_v5-eagle-import
+#
+DEF C5_3.5-Tayloe_Detector_v5-eagle-import C 0 40 Y Y 1 L N
+F0 "C" 60 15 59 H V L BNN
+F1 "C5_3.5-Tayloe_Detector_v5-eagle-import" 60 -185 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -80 -80 80 -60 1 0 0 F
+S -80 -40 80 -20 1 0 0 F
+P 2 1 0 0 0 -100 0 -80 N
+P 2 1 0 0 0 0 0 -20 N
+X 1 1 0 100 100 D 0 0 1 0 P
+X 2 2 0 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# FST3253-Tayloe_Detector_v5-eagle-import
+#
+DEF FST3253-Tayloe_Detector_v5-eagle-import ~ 0 40 Y Y 1 L N
+F0 "" -2600 725 59 H V L BNN
+F1 "FST3253-Tayloe_Detector_v5-eagle-import" -2600 -700 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -2600 700 -2600 -600 N
+P 2 1 0 0 -2600 700 -1600 700 N
+P 2 1 0 0 -1600 -600 -2600 -600 N
+P 2 1 0 0 -1600 -600 -1600 700 N
+X OE1 1 -2800 200 200 R 50 50 1 0 B
+X 2B1 10 -1400 -200 200 L 50 50 1 0 O
+X 2B2 11 -1400 -300 200 L 50 50 1 0 O
+X 2B3 12 -1400 -400 200 L 50 50 1 0 I
+X 2B4 13 -1400 -500 200 L 50 50 1 0 I
+X S0 14 -1400 500 200 L 50 50 1 0 B
+X OE2 15 -2800 0 200 R 50 50 1 0 B
+X VCC 16 -2100 900 200 D 50 50 1 0 B
+X S1 2 -1400 300 200 L 50 50 1 0 B
+X 1B4 3 -2800 -500 200 R 50 50 1 0 O
+X 1B3 4 -2800 -400 200 R 50 50 1 0 O
+X 1B2 5 -2800 -300 200 R 50 50 1 0 I
+X 1B1 6 -2800 -200 200 R 50 50 1 0 I
+X 1A 7 -2800 600 200 R 50 50 1 0 B
+X GND 8 -2100 -800 200 U 50 50 1 0 B
+X 2A 9 -2800 400 200 R 50 50 1 0 B
+ENDDRAW
+ENDDEF
+#
+# GND-Tayloe_Detector_v5-eagle-import
+#
+DEF GND-Tayloe_Detector_v5-eagle-import #GND 0 40 Y Y 1 L P
+F0 "#GND" 0 0 50 H I C CNN
+F1 "GND-Tayloe_Detector_v5-eagle-import" 0 -10 59 H V C TNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -75 0 75 0 N
+X GND 1 0 100 100 D 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name Tayloe_Detector_v5-eagle-import)(type Legacy)(uri C:/Users/Caliphax/Documents/kicad/Tayloe/Tayloe_Detector_v5-eagle-import.lib)(options "")(descr ""))
+  (lib (name IQ-Tayloe-Mixer-rescue)(type Legacy)(uri "${KIPRJMOD}/IQ Tayloe Mixer-rescue.lib")(options "")(descr ""))
 )

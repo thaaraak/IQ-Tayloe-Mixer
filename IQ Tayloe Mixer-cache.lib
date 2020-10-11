@@ -1,30 +1,50 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Regulator_Linear_MCP1703A-2502_SOT223
+# IQ-Tayloe-Mixer-rescue_0.3OHM-0805-1_8W-1%-phase_v3-eagle-import
 #
-DEF Regulator_Linear_MCP1703A-2502_SOT223 U 0 10 Y Y 1 F N
-F0 "U" -150 125 50 H V C CNN
-F1 "Regulator_Linear_MCP1703A-2502_SOT223" 0 125 50 H V L CNN
-F2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" 0 200 50 H I C CNN
-F3 "" 0 -50 50 H I C CNN
-ALIAS MCP1703A-1202_SOT223 MCP1703A-1502_SOT223 MCP1703A-1802_SOT223 MCP1703A-2502_SOT223 MCP1703A-2802_SOT223 MCP1703A-3002_SOT223 MCP1703A-4002_SOT223 MCP1703A-5002_SOT223
-$FPLIST
- SOT?223*TabPin2*
-$ENDFPLIST
+DEF IQ-Tayloe-Mixer-rescue_0.3OHM-0805-1_8W-1%-phase_v3-eagle-import R 0 40 Y Y 1 L N
+F0 "R" 0 60 70 H V C BNN
+F1 "IQ-Tayloe-Mixer-rescue_0.3OHM-0805-1_8W-1%-phase_v3-eagle-import" 0 -60 70 H V C TNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
-S -200 -200 200 75 0 1 10 f
-X VI 1 -300 0 100 R 50 50 1 1 W
-X GND 2 0 -300 100 U 50 50 1 1 W
-X VO 3 300 0 100 L 50 50 1 1 w
+P 2 1 0 0 -100 0 -85 40 N
+P 2 1 0 0 -85 40 -60 -40 N
+P 2 1 0 0 -60 -40 -35 40 N
+P 2 1 0 0 -35 40 -10 -40 N
+P 2 1 0 0 -10 -40 15 40 N
+P 2 1 0 0 15 40 40 -40 N
+P 2 1 0 0 40 -40 65 40 N
+P 2 1 0 0 65 40 90 -40 N
+P 2 1 0 0 90 -40 100 0 N
+X 1 1 -200 0 100 R 0 0 1 0 P
+X 2 2 200 0 100 L 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# Tayloe_Detector_v5-eagle-import_C5_3.5
+# IQ-Tayloe-Mixer-rescue_1.0UF-0805-25V-(+80_-20%)-phase_v3-eagle-import
 #
-DEF Tayloe_Detector_v5-eagle-import_C5_3.5 C 0 40 Y Y 1 L N
+DEF IQ-Tayloe-Mixer-rescue_1.0UF-0805-25V-(+80_-20%)-phase_v3-eagle-import C 0 40 Y Y 1 L N
+F0 "C" 60 115 70 H V L BNN
+F1 "IQ-Tayloe-Mixer-rescue_1.0UF-0805-25V-(+80_-20%)-phase_v3-eagle-import" 60 -85 70 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -80 20 80 40 1 0 0 F
+S -80 60 80 80 1 0 0 F
+P 2 1 0 0 0 0 0 20 N
+P 2 1 0 0 0 100 0 80 N
+X 1 1 0 200 100 D 0 0 1 0 P
+X 2 2 0 -100 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# IQ-Tayloe-Mixer-rescue_C5_3.5-Tayloe_Detector_v5-eagle-import
+#
+DEF IQ-Tayloe-Mixer-rescue_C5_3.5-Tayloe_Detector_v5-eagle-import C 0 40 Y Y 1 L N
 F0 "C" 60 15 59 H V L BNN
-F1 "Tayloe_Detector_v5-eagle-import_C5_3.5" 60 -185 59 H V L BNN
+F1 "IQ-Tayloe-Mixer-rescue_C5_3.5-Tayloe_Detector_v5-eagle-import" 60 -185 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -37,11 +57,11 @@ X 2 2 0 -200 100 U 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
-# Tayloe_Detector_v5-eagle-import_FST3253
+# IQ-Tayloe-Mixer-rescue_FST3253-Tayloe_Detector_v5-eagle-import
 #
-DEF Tayloe_Detector_v5-eagle-import_FST3253 ~ 0 40 Y Y 1 L N
+DEF IQ-Tayloe-Mixer-rescue_FST3253-Tayloe_Detector_v5-eagle-import ~ 0 40 Y Y 1 L N
 F0 "" -2600 725 59 H V L BNN
-F1 "Tayloe_Detector_v5-eagle-import_FST3253" -2600 -700 59 H V L BNN
+F1 "IQ-Tayloe-Mixer-rescue_FST3253-Tayloe_Detector_v5-eagle-import" -2600 -700 59 H V L BNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -68,16 +88,35 @@ X 2A 9 -2800 400 200 R 50 50 1 0 B
 ENDDRAW
 ENDDEF
 #
-# Tayloe_Detector_v5-eagle-import_GND
+# IQ-Tayloe-Mixer-rescue_GND-Tayloe_Detector_v5-eagle-import
 #
-DEF Tayloe_Detector_v5-eagle-import_GND #GND 0 40 Y Y 1 L P
+DEF IQ-Tayloe-Mixer-rescue_GND-Tayloe_Detector_v5-eagle-import #GND 0 40 Y Y 1 L P
 F0 "#GND" 0 0 50 H I C CNN
-F1 "Tayloe_Detector_v5-eagle-import_GND" 0 -10 59 H V C TNN
+F1 "IQ-Tayloe-Mixer-rescue_GND-Tayloe_Detector_v5-eagle-import" 0 -10 59 H V C TNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 P 2 1 0 0 -75 0 75 0 N
 X GND 1 0 100 100 D 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# Regulator_Linear_MCP1703A-2502_SOT223
+#
+DEF Regulator_Linear_MCP1703A-2502_SOT223 U 0 10 Y Y 1 F N
+F0 "U" -150 125 50 H V C CNN
+F1 "Regulator_Linear_MCP1703A-2502_SOT223" 0 125 50 H V L CNN
+F2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" 0 200 50 H I C CNN
+F3 "" 0 -50 50 H I C CNN
+ALIAS MCP1703A-1202_SOT223 MCP1703A-1502_SOT223 MCP1703A-1802_SOT223 MCP1703A-2502_SOT223 MCP1703A-2802_SOT223 MCP1703A-3002_SOT223 MCP1703A-4002_SOT223 MCP1703A-5002_SOT223
+$FPLIST
+ SOT?223*TabPin2*
+$ENDFPLIST
+DRAW
+S -200 -200 200 75 0 1 10 f
+X VI 1 -300 0 100 R 50 50 1 1 W
+X GND 2 0 -300 100 U 50 50 1 1 W
+X VO 3 300 0 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
@@ -296,45 +335,6 @@ P 3 1 1 0 0 -190 -40 -250 40 -250 F
 X CW 1 -200 -150 100 R 0 0 1 1 P
 X WIPER 2 0 -350 100 U 0 0 1 1 P
 X CCW 3 200 -150 100 L 0 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# phase_v3-eagle-import_0.3OHM-0805-1_8W-1%
-#
-DEF phase_v3-eagle-import_0.3OHM-0805-1_8W-1% R 0 40 Y Y 1 L N
-F0 "R" 0 60 70 H V C BNN
-F1 "phase_v3-eagle-import_0.3OHM-0805-1_8W-1%" 0 -60 70 H V C TNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 1 0 0 -100 0 -85 40 N
-P 2 1 0 0 -85 40 -60 -40 N
-P 2 1 0 0 -60 -40 -35 40 N
-P 2 1 0 0 -35 40 -10 -40 N
-P 2 1 0 0 -10 -40 15 40 N
-P 2 1 0 0 15 40 40 -40 N
-P 2 1 0 0 40 -40 65 40 N
-P 2 1 0 0 65 40 90 -40 N
-P 2 1 0 0 90 -40 100 0 N
-X 1 1 -200 0 100 R 0 0 1 0 P
-X 2 2 200 0 100 L 0 0 1 0 P
-ENDDRAW
-ENDDEF
-#
-# phase_v3-eagle-import_1.0UF-0805-25V-(+80_-20%)
-#
-DEF phase_v3-eagle-import_1.0UF-0805-25V-(+80_-20%) C 0 40 Y Y 1 L N
-F0 "C" 60 115 70 H V L BNN
-F1 "phase_v3-eagle-import_1.0UF-0805-25V-(+80_-20%)" 60 -85 70 H V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -80 20 80 40 1 0 0 F
-S -80 60 80 80 1 0 0 F
-P 2 1 0 0 0 0 0 20 N
-P 2 1 0 0 0 100 0 80 N
-X 1 1 0 200 100 D 0 0 1 0 P
-X 2 2 0 -100 100 U 0 0 1 0 P
 ENDDRAW
 ENDDEF
 #
